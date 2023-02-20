@@ -1,0 +1,52 @@
+{
+  "select_language": "Select Language",
+  "navbar": {
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "brochure": "Brochure"
+  },
+  "hero": {
+    "name": "Need",
+    "typewritter-data": {
+      "text-1": "SMS Credit?", 
+      "text-2": "Data Package?", 
+      "text-3": "Accessories?"
+    },
+    "info": "Affordable Prices, Fast Process, Guaranteed Services. Explore the website and immediately contact us",
+    "watermark": "CODE"
+  },
+  "about": {
+    "name_support": "Kotocell",
+    "name": "History",
+    "first_paragraph": "Kotocell is a counter that was previously a laundry business, founded in 2018 and still operating till today.",
+    "second_paragraph": "Until now, Kotocell has served more than 10 thousand total happy customers and already has 3 branches in islandwides, 2 others are Selmacell and Since Store.",
+    "third_paragraph": "Kotocell has a vision to be a productive and progressive business according to needs and also a mission to prioritize and make loyal customers shop at its store",
+    "fourth_paragraph": "",
+    "quotes": "Happiness is not in money, but in Kotocell",
+    "skills": "Skills",
+    "proficient": "Proficient",
+    "familiar": "Familiar",
+    "why_us_1": "satisfied customers",
+    "why_us_2": "outlets islandwides"
+  },
+  "products": {
+    "name_support": "Kotocell",
+    "name": "Products"
+  },
+  "projects": {
+    "name": "My Projects"
+  },
+  "contact": {
+    "name": "Contact us",
+    "title_support": "Claim",
+    "title": "special promotion",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_send": "Send Now",
+    "error_1": "Something went wrong",
+    "error_2": "Please try again later!",
+    "success": "Message successfully sent"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "select_language": "选择语言",
+  "navbar": {
+    "about": "关于",
+    "projects": "项目",
+    "contact": "接触",
+    "resume": "简历"
+  },
+  "hero": {
+    "intro": "您好，我是叫",
+    "name": "林",
+    "surname": "建豪",
+    "info": "我使用多种编程语言构建了一个外观惊人的网站应用程序，并伴随着一杯咖啡",
+    "watermark": "CODE"
+  },
+  "about": {
+    "name": "关于我",
+    "first_paragraph": "我是建豪，来自印度尼西亚的全栈开发人员.",
+    "second_paragraph": "我喜欢编码🧑‍💻，尤其是在后端。在找到解决方案之前，我一直以最糟糕的方式进行编码。我专注于编写干净、可理解和可测试的代码。",
+    "third_paragraph": "目前，我正在巴淡大学攻读计算机科学专业的本科生🧑‍🎓。我一直在寻找学习和成长的机会。",
+    "fourth_paragraph": "就个人而言，我积极寻求新技术💻，并及时了解行业趋势和进步。",
+    "quotes": "为了不可替代，必须始终与众不同",
+    "skills": "技能",
+    "proficient": "精通",
+    "familiar": "熟悉的"
+  },
+  "projects": {
+    "name": "我的项目"
+  },
+  "contact": {
+    "name": "联络我",
+    "title": "我们一起工作吧",
+    "form_name": "名字",
+    "form_email": "电子邮件",
+    "form_message": "信息",
+    "form_send": "现在发送"
+  }
+}

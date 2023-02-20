@@ -1,0 +1,52 @@
+{
+  "select_language": "Pilih Bahasa",
+  "navbar": {
+    "about": "Tentang Kotocell",
+    "products": "Produk Kami",
+    "contact": "Kontak",
+    "brochure": "Brosur"
+  },
+  "hero": {
+    "name": "Butuh",
+    "typewritter-data": {
+      "text-1": "Pulsa?", 
+      "text-2": "Paket?", 
+      "text-3": "Aksesoris?"
+    },
+    "info": "Harga Murah Meriah, Proses Cepat, Service Kencang. Eksplor websitenya dan segera hubungi kami",
+    "watermark": "CODE"
+  },
+  "about": {
+    "name_support": "Sejarah",
+    "name": "Kotocell",
+    "first_paragraph": "Kotocell merupakan sebuah konter yang sebelumnya merupakan usaha laundry baju, didirikan pada tahun 2018 dan masih beroperasi sampai dengan sekarang.",
+    "second_paragraph": "Hingga kini Kotocell sudah melayani lebih dari 10 ribu total pelanggan dan sudah memiliki 3 cabang di berbagai tempat 2 diantaranya yaitu Selmacell dan Since Store",
+    "third_paragraph": "Kotocell memiliki visi untuk menjadi usaha yang produktif dan terus maju sesuai dengan kebutuhan dan juga misi untuk memprioritaskan dan membuat pelanggan setia berbelanja di tokonya",
+    "fourth_paragraph": "",
+    "quotes": "Happiness is not in money, but in Kotocell",
+    "skills": "Keahlian",
+    "proficient": "Ahli",
+    "familiar": "Familiar",
+    "why_us_1": "pelanggan puas",
+    "why_us_2": "outlet diberbagai lokasi"
+  },
+  "products": {
+    "name_support": "Produk",
+    "name": "Kotocell"
+  },
+  "projects": {
+    "name": "Proyek Saya"
+  },
+  "contact": {
+    "name": "Hubungi Kami",
+    "title_support": "Dapatkan",
+    "title": "promo spesial",
+    "form_name": "Nama",
+    "form_email": "Surel",
+    "form_message": "Pesan",
+    "form_send": "Kirim Data",
+    "error_1": "Terjadi masalah dengan server",
+    "error_2": "Silahkan coba lagi dalam beberapa saat!",
+    "success": "Pesan berhasil terkirim"
+  }
+}
