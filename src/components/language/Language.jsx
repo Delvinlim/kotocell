@@ -8,8 +8,8 @@ import { LanguageContainer, LanguageText, LanguageWrapper, ListContainer, Option
 const languageMap = {
   en: { label: "EN", dir: "ltr", active: true },
   in: { label: "IN", dir: "ltr", active: false },
-  zh: { label: "ZH", dir: "ltr", active: false }
 };
+// zh: { label: "ZH", dir: "ltr", active: false }
 
 const Language = () => {
   const selected = localStorage.getItem("i18nextLng").split('-')[0] || "en";
