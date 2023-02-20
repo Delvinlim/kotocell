@@ -7,7 +7,7 @@ import translationIN from "../src/assets/locales/in/translation.json";
 import translationZH from "../src/assets/locales/zh/translation.json";
 
 const fallbackLng = ["in"];
-const availableLanguages = ["in", "en", "zh"];
+const availableLanguages = ["in", "en"];
 
 const resources = {
   in: {
@@ -15,9 +15,6 @@ const resources = {
   },
   en: {
     translation: translationEN
-  },
-  zh: {
-    translation: translationZH
   }
 };
 
