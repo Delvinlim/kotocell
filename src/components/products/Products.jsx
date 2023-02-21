@@ -59,13 +59,13 @@ const Products = () => {
                   <PanelBox>
                     <PanelImage src={pulsa} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('product.credit')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('products.credit')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                   <PanelBox>
                     <PanelImage src={pulsa2} loading="lazy"/>
                     <PanelData>
-                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('product.credit')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('products.credit')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                 </div>
@@ -75,19 +75,19 @@ const Products = () => {
                   <PanelBox>
                     <PanelImage src={aksesoris} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('products.accessories')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                   <PanelBox>
                     <PanelImage src={aksesoris2} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('products.accessories')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                   <PanelBox>
                     <PanelImage src={aksesoris3} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('products.accessories')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                 </div>
@@ -97,13 +97,13 @@ const Products = () => {
                   <PanelBox>
                     <PanelImage src={voucher} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('product.data_package')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('products.data_package')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                   <PanelBox>
                     <PanelImage src={voucher2} loading="lazy" />
                     <PanelData>
-                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('product.data_package')}</PanelDataText>
+                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('products.data_package')}</PanelDataText>
                     </PanelData>
                   </PanelBox>
                 </div>

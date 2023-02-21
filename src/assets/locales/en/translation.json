@@ -6,6 +6,11 @@
     "contact": "Contact",
     "brochure": "Brochure"
   },
+  "sidebar": {
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
   "hero": {
     "name": "Need",
     "typewritter-data": {
@@ -32,7 +37,10 @@
   },
   "products": {
     "name_support": "Kotocell",
-    "name": "Products"
+    "name": "Products",
+    "credit": "Buy Credit",
+    "accessories": "Buy Accessories",
+    "data_package": "Buy Package"
   },
   "projects": {
     "name": "My Projects"

@@ -6,6 +6,11 @@
     "contact": "Kontak",
     "brochure": "Brosur"
   },
+  "sidebar": {
+    "about": "Tentang",
+    "products": "Produk",
+    "contact": "Kontak"
+  },
   "hero": {
     "name": "Butuh",
     "typewritter-data": {
