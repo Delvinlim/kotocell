@@ -41,14 +41,66 @@ export const PanelBox = styled.div`
   height: 280px;
   display: flex;
   justify-content: center;
+  align-items: center;
   /* border: 1px solid green; */
+  position: relative;
+  &:hover > img {
+    filter: blur(0.8rem);
+  }
+
+  &:hover > div {
+    opacity: 1;
+  }
 `
 
 export const PanelImage = styled.img`
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
   object-fit: cover;
+  position: relative;
 `
+
+export const PanelData = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(24, 26, 27, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  & > a {
+    display: inline-flex;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: rgba(24, 26, 27, 0.8);
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      background-color: #e82e2e;
+    }
+  }
+`
+
+export const PanelDataText = styled.a``
 
 export const ProductRecommendationWrapper = styled.div`
   display: flex;

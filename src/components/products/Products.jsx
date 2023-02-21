@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 import "./product.css";
 import {
   PanelBox,
+  PanelData,
+  PanelDataText,
   PanelImage,
   ProductContainer,
   ProductContainerWrapper,
@@ -54,9 +56,15 @@ const Products = () => {
               <div className="panel-content">
                 <PanelBox>
                   <PanelImage src={pulsa} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/dgmq9f" target="_blank">Buy This</PanelDataText>
+                  </PanelData>
                 </PanelBox>
                 <PanelBox>
                   <PanelImage src={pulsa2} loading="lazy"/>
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/dgmq9f" target="_blank">Buy This</PanelDataText>
+                  </PanelData>
                 </PanelBox>
               </div>
             </TabPanel>
@@ -64,12 +72,21 @@ const Products = () => {
               <div className="panel-content">
                 <PanelBox>
                   <PanelImage src={aksesoris} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
+                  </PanelData>
                 </PanelBox>
                 <PanelBox>
                   <PanelImage src={aksesoris2} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
+                  </PanelData>
                 </PanelBox>
                 <PanelBox>
                   <PanelImage src={aksesoris3} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
+                  </PanelData>
                 </PanelBox>
               </div>
             </TabPanel>
@@ -77,9 +94,15 @@ const Products = () => {
               <div className="panel-content">
                 <PanelBox>
                   <PanelImage src={voucher} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/tkkbf1" target="_blank">Buy Data Package</PanelDataText>
+                  </PanelData>
                 </PanelBox>
                 <PanelBox>
                   <PanelImage src={voucher2} loading="lazy" />
+                  <PanelData>
+                    <PanelDataText href="https://wa.link/tkkbf1" target="_blank">Buy Data Package</PanelDataText>
+                  </PanelData>
                 </PanelBox>
               </div>
             </TabPanel>
