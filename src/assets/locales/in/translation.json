@@ -32,7 +32,10 @@
   },
   "products": {
     "name_support": "Produk",
-    "name": "Kotocell"
+    "name": "Kotocell",
+    "credit": "Beli Pulsa",
+    "accessories": "Beli Aksesoris",
+    "data_package": "Beli Paket"
   },
   "projects": {
     "name": "Proyek Saya"

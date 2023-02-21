@@ -4,9 +4,10 @@ import { mobile } from "../../responsive";
 export const ProductContainer = styled.div`
   padding: 20px 20px 0;
   display: flex;
-  /* height: 100vh; */
+  height: 100vh;
   overflow-x: hidden;
   justify-content: center;
+  align-items: center;
   /* width: 100%; */
   ${mobile({ padding: "0" })}
 `;
@@ -107,15 +108,20 @@ export const ProductRecommendationWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px 0 10px; 
-  gap: 15px;
+  margin: 30px 0 10px; 
+  gap: 10px;
 `
 
 export const ProductRecommendation = styled.span`
   display: flex;
   justify-content: center;
-  font-size: 34px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 500;
+  ${mobile({ fontSize: "18px" })}
+`
+
+export const TabsWrapper = styled.div`
+  ${mobile({ display: "none" })}
 `
 
 export const ProductRecommendationCtaButton = styled.a`
@@ -123,7 +129,7 @@ export const ProductRecommendationCtaButton = styled.a`
   font-weight: 600;
   background-color: #e82e2e;
   color: white;
-  padding: 0.7em 1em;
+  padding: 0.5em 1em;
   padding-left: 0.9em;
   display: flex;
   align-items: center;
@@ -133,8 +139,8 @@ export const ProductRecommendationCtaButton = styled.a`
   overflow: hidden;
   transition: all 0.2s;
   cursor: pointer;
-  width: 200px;
-  margin-top: 20px;
+  width: 140px;
+  margin-top: 15px;
   text-decoration: none;
 
   &:hover {

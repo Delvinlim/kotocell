@@ -28,6 +28,7 @@ export const ContactBottomWrapper = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   height: 100%;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 export const ContactForm = styled.form`
@@ -52,10 +53,10 @@ export const ContactLocationMaps = styled.div`
 `;
 
 export const ContactLocationInfoWrapper = styled.div`
+  height: 100%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid blue; */
   gap: 5px;
 `;
 
@@ -64,27 +65,30 @@ export const ContactLocationInfoAddressWrapper = styled.div`
   gap: 15px;
   flex-direction: column;
   font-weight: 600;
-  /* align-items: flex-end; */
+  ${mobile({ gap: "10px" })}
 `
 
 export const ContactLocationInfoAddress = styled.span`
   font-size: 18px;
+  ${mobile({ fontSize: "12px" })}
 `
 
 export const ContactLocationInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   /* align-items: flex-end; */
   font-weight: 600;
 `;
 
 export const ContactLocationInfoTime = styled.span`
   font-size: 18px;
+  ${mobile({ fontSize: "12px" })}
 `;
 
 export const ContactLocationInfoDay = styled.span`
-  font-size: 24px;
+  font-size: 20px;
+  ${mobile({ fontSize: "14px" })}
 `;
 
 export const ContactTitle = styled.h5`
@@ -95,7 +99,7 @@ export const ContactTitle = styled.h5`
 export const ContactSubtitle = styled.h1`
   margin: 20px 0 30px;
   font-size: 42px;
-  ${mobile({ fontSize: "32px;" })}
+  ${mobile({ fontSize: "28px;" })}
 `;
 
 export const ContactInputWrapper = styled.div`
@@ -109,6 +113,7 @@ export const ContactButtonWrapper = styled.div`
   padding: 10px;
   display: flex;
   justify-content: flex-end;
+  ${mobile({ justifyContent: "center" })}
 `;
 
 export const ContactInput = styled.input`

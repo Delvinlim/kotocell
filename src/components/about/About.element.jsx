@@ -244,6 +244,11 @@ export const AboutWhyUsImage = styled.img`
   width: 100%;
   opacity: 0.2;
   border-radius: 12px;
+  box-shadow: 0 0 1rem transparent;
+  transition: all 0.4s;
+  &:hover {
+    box-shadow: 0 0 2rem #e82e2e;
+  }
 `;
 
 export const AboutWhyUsText = styled.span`

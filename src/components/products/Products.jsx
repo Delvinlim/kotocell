@@ -17,6 +17,7 @@ import {
   ProductsTitle,
   ProductsTitleWrapper,
   TabText,
+  TabsWrapper,
 } from "./Products.element";
 import pulsa from "../img/pulsa.jpg";
 import pulsa2 from "../img/pulsa 2.jpg";
@@ -40,81 +41,83 @@ const Products = () => {
               <span style={{ color: "#e82e2e" }}>{t("products.name")}</span>
             </ProductsTitle>
           </ProductsTitleWrapper>
-          <Tabs>
-            <TabList>
-              <Tab>
-                <TabText>Pulsa</TabText>
-              </Tab>
-              <Tab>
-                <TabText>Aksesoris</TabText>
-              </Tab>
-              <Tab>
-                <TabText>Voucher</TabText>
-              </Tab>
-            </TabList>
-            <TabPanel>
-              <div className="panel-content">
-                <PanelBox>
-                  <PanelImage src={pulsa} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/dgmq9f" target="_blank">Buy This</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-                <PanelBox>
-                  <PanelImage src={pulsa2} loading="lazy"/>
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/dgmq9f" target="_blank">Buy This</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div className="panel-content">
-                <PanelBox>
-                  <PanelImage src={aksesoris} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-                <PanelBox>
-                  <PanelImage src={aksesoris2} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-                <PanelBox>
-                  <PanelImage src={aksesoris3} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/8onolr" target="_blank">Buy Accessories</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div className="panel-content">
-                <PanelBox>
-                  <PanelImage src={voucher} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/tkkbf1" target="_blank">Buy Data Package</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-                <PanelBox>
-                  <PanelImage src={voucher2} loading="lazy" />
-                  <PanelData>
-                    <PanelDataText href="https://wa.link/tkkbf1" target="_blank">Buy Data Package</PanelDataText>
-                  </PanelData>
-                </PanelBox>
-              </div>
-            </TabPanel>
-          </Tabs>
+          <TabsWrapper>
+            <Tabs>
+              <TabList>
+                <Tab>
+                  <TabText>Pulsa</TabText>
+                </Tab>
+                <Tab>
+                  <TabText>Aksesoris</TabText>
+                </Tab>
+                <Tab>
+                  <TabText>Voucher</TabText>
+                </Tab>
+              </TabList>
+              <TabPanel>
+                <div className="panel-content">
+                  <PanelBox>
+                    <PanelImage src={pulsa} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('product.credit')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                  <PanelBox>
+                    <PanelImage src={pulsa2} loading="lazy"/>
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/dgmq9f" target="_blank">{t('product.credit')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="panel-content">
+                  <PanelBox>
+                    <PanelImage src={aksesoris} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                  <PanelBox>
+                    <PanelImage src={aksesoris2} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                  <PanelBox>
+                    <PanelImage src={aksesoris3} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/8onolr" target="_blank">{t('product.accessories')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="panel-content">
+                  <PanelBox>
+                    <PanelImage src={voucher} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('product.data_package')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                  <PanelBox>
+                    <PanelImage src={voucher2} loading="lazy" />
+                    <PanelData>
+                      <PanelDataText href="https://wa.link/tkkbf1" target="_blank">{t('product.data_package')}</PanelDataText>
+                    </PanelData>
+                  </PanelBox>
+                </div>
+              </TabPanel>
+            </Tabs>
+          </TabsWrapper>
           <ProductRecommendationWrapper>
             <ProductRecommendation>
-              Penasaran dengan produk selengkapnya?
+              Penasaran dengan produk selengkapnya? Tunggu apalagi
             </ProductRecommendation>
-            <ProductRecommendation>Tunggu apalagi</ProductRecommendation>
-            <ProductRecommendation>
+            {/* <ProductRecommendation>Tunggu apalagi</ProductRecommendation> */}
+            {/* <ProductRecommendation>
               Segera hubungi +6821 7713 2002 atau Klik tombol dibawah berikut
-            </ProductRecommendation>
+            </ProductRecommendation> */}
             <ProductRecommendationCtaButton href="https://wa.link/lgvtau" target="_blank">
               Call Now
             </ProductRecommendationCtaButton>
